@@ -14,7 +14,7 @@
 		B7D438482282C5A5009D2ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D438462282C5A5009D2ACB /* LaunchScreen.storyboard */; };
 		B7D438532282C5A5009D2ACB /* CombinedViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D438522282C5A5009D2ACB /* CombinedViewTests.swift */; };
 		B7D4385E2282C5A5009D2ACB /* CombinedViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D4385D2282C5A5009D2ACB /* CombinedViewUITests.swift */; };
-		B7D438772282DCC5009D2ACB /* CombinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D438762282DCC4009D2ACB /* CombinedView.swift */; };
+		B7D4388922833126009D2ACB /* CombinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D4388822833126009D2ACB /* CombinedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		B7D438592282C5A5009D2ACB /* CombinedViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombinedViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D4385D2282C5A5009D2ACB /* CombinedViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedViewUITests.swift; sourceTree = "<group>"; };
 		B7D4385F2282C5A5009D2ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7D438762282DCC4009D2ACB /* CombinedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedView.swift; sourceTree = "<group>"; };
+		B7D4388822833126009D2ACB /* CombinedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		B7D438312282C5A4009D2ACB = {
 			isa = PBXGroup;
 			children = (
-				B7D438742282DCC4009D2ACB /* Pod */,
+				B7D4388722833126009D2ACB /* CombinedView */,
 				B7D4383C2282C5A4009D2ACB /* CombinedView */,
 				B7D438512282C5A5009D2ACB /* CombinedViewTests */,
 				B7D4385C2282C5A5009D2ACB /* CombinedViewUITests */,
@@ -128,21 +128,13 @@
 			path = CombinedViewUITests;
 			sourceTree = "<group>";
 		};
-		B7D438742282DCC4009D2ACB /* Pod */ = {
+		B7D4388722833126009D2ACB /* CombinedView */ = {
 			isa = PBXGroup;
 			children = (
-				B7D438752282DCC4009D2ACB /* CombinedView */,
+				B7D4388822833126009D2ACB /* CombinedView.swift */,
 			);
-			name = Pod;
-			path = ../Pod;
-			sourceTree = "<group>";
-		};
-		B7D438752282DCC4009D2ACB /* CombinedView */ = {
-			isa = PBXGroup;
-			children = (
-				B7D438762282DCC4009D2ACB /* CombinedView.swift */,
-			);
-			path = CombinedView;
+			name = CombinedView;
+			path = ../CombinedView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +270,7 @@
 			files = (
 				B7D438402282C5A4009D2ACB /* ViewController.swift in Sources */,
 				B7D4383E2282C5A4009D2ACB /* AppDelegate.swift in Sources */,
-				B7D438772282DCC5009D2ACB /* CombinedView.swift in Sources */,
+				B7D4388922833126009D2ACB /* CombinedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
