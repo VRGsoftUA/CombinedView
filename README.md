@@ -9,6 +9,15 @@ Meet a simple library for iOS application to combine different images in one UIV
 ![](Resources/demo1.png) ![](Resources/demo4.png)
 
 
+### Installing with [CocoaPods](https://cocoapods.org)
+
+```ruby
+use_frameworks! 
+
+pod 'CombinedView'
+```
+
+
 ### Usage
 
 Add a `UIView` instance in your .storyboard or .xib, set a `CombinedView` class, connect an `IBOutlet` and call `combine(images: [UIImage?]` func with an array of images.
