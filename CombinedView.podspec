@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
         s.license   = { :type => 'MIT', :file => 'LICENSE.txt' }
 
         s.homepage  = 'https://github.com/VRGsoftUA/CombinedView'
-        s.authors   = {'Anna Sahaidak'}
+        s.authors   = {'Anna Sahaidak' => 'annasagaydack@gmail.com'}
         s.source    = { :git => 'https://github.com/VRGsoftUA/CombinedView.git', :branch => 'master', :tag => '1.0.0' }
 
     #platform
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
 
     #file patterns
 
-        s.source_files = 'Classes/CombinedView/*.{h,m}'
+        s.source_files = 'CombinedView/*.{h,m}'
 end
